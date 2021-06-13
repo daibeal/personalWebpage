@@ -257,11 +257,7 @@
 // ——————————————————————————————————————————————————
 // TextScramble
 // ——————————————————————————————————————————————————
-function isMobile() {
-return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
 
-if (!isMobile()) {
   class TextScramble {
     constructor(el) {
       this.el = el
@@ -321,13 +317,12 @@ if (!isMobile()) {
   // ——————————————————————————————————————————————————
 
   const phrases = [
-    'Programming Skills',
-    'Programming Skills',
-    'Programming Skills',
-    'Programming Skills',
-    'Programming Skills',
-    'Programming Skills',
-    'Programming Skills'
+    'Skills',
+    'Programming',
+    'Design',
+    'Mathematics',
+    'Research',
+    'Languages'
   ]
 
   const el = document.querySelector('.text')
@@ -342,5 +337,3 @@ if (!isMobile()) {
   }
 
   next()
-
-}
