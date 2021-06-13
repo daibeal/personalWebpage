@@ -32,6 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
+  transform: scale(1);
+  transition-duration: 1s;
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -52,8 +54,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
-  color: #fff;
+  transform: scale(1.3);
+  transition-duration: 1s;
+  background: white;
+  background-color: rgb(9, 9, 121);
 }
 
 .back-to-top.active {
@@ -1356,7 +1360,9 @@ a {
   z-index: 111;
   bottom: 80px;
   text-align: center
+
 }
+
 
 .go_top span {
   display: inline-block
