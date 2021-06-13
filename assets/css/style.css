@@ -82,8 +82,24 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(0%);
+  transition: all 0.5s ease;
+  transform: scale(1);
+  transition-duration: 1s;
 }
-
+#header .profile img:hover {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+  -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
@@ -408,6 +424,7 @@ section {
   display: block;
   background: none;
   border-radius: 0;
+
 }
 
 .skills .progress .skill {
@@ -418,16 +435,20 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #050d18;
+
 }
 
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
+  border-width: 0;
 }
 
 .skills .progress-bar-wrap {
   background: #dce8f8;
-  height: 10px;
+
+
+
 }
 
 .skills .progress-bar {
@@ -435,6 +456,7 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #149ddd;
+
 }
 
 /*--------------------------------------------------------------
