@@ -1146,7 +1146,7 @@ section {
   .uni{
     transform: scale(1);
     transition-duration: 1s;
-    width: 30%;
+    width: 40%;
     margin: 0 0.5rem 0;
 
   }
@@ -1217,4 +1217,8 @@ section {
   text-align: center;
     display:table-cell;
     vertical-align:middle;
+}
+.ucm {
+  position: relative; /* Declared position allows for location changes */
+   top: -21px; /* Moves the image 2px closer to the top of the page */
 }
