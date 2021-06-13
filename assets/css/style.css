@@ -1134,7 +1134,7 @@ section {
 .uni{
   transform: scale(1);
   transition-duration: 1s;
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
 
 }
 .uni:hover{
@@ -1158,16 +1158,7 @@ section {
 }
 @media (max-width: 900px) {
   .uni{
-    transform: scale(1);
-    transition-duration: 1s;
-    width: 100%;
-    margin: 0;
-
-  }
-  .uni:hover{
-    /* margin: auto 2rem auto; */
-    transform: scale(1.1);
-    transition-duration: 1s;
+    width: 75%;
   }
 }
 
@@ -1208,7 +1199,7 @@ section {
 @media screen and (max-width: 1000px) {
   #hero {
     background: rgb(9,9,121);
-    
+
   }
   #hero::after {
     background: rgb(9,9,121);
@@ -1222,18 +1213,8 @@ section {
     z-index: 1;
   }
 }
-/* @media screen and (max-width: 1500px) {
-  #hero {
-    background: rgb(9,9,121);
-  }
-  #hero::after {
-    background: rgb(9,9,121);
-    content: "";
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-  }
-} */
+.uni-row {
+  text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+}
