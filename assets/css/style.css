@@ -108,6 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
