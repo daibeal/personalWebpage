@@ -1198,6 +1198,9 @@ section {
   color: #149ddd;
 }
 @media screen and (max-width: 1000px) {
+  .container-row{
+    text-align: left;
+  }
 
   body{
   text-align: center;
@@ -1282,5 +1285,6 @@ section {
   #second {
 width: 100%;
   }
+
 
 }
