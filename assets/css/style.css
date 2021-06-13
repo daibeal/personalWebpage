@@ -1200,3 +1200,19 @@ section {
 .dud{
   color: #149ddd;
 }
+@media screen and (min-width: 100px) and (max-width: 900px) {
+  #hero {
+    background: rgb(9,9,121);
+  }
+  #hero:before {
+    background: rgb(9,9,121);
+    content: "";
+    /* background: rgba(5, 13, 24, 0.3); */
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
