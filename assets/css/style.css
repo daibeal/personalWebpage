@@ -113,7 +113,6 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
-  margin-left: 3rem;
 }
 
 #header .profile .social-links a {
@@ -1106,7 +1105,7 @@ section {
   transition-duration: 1s;
 }
 .other-pic:hover{
-  border-radius: 20%;
+  border-radius: 7%;
   box-shadow: 10px 10px 5px #ccc;
       -moz-box-shadow: 10px 10px 5px #ccc;
       -webkit-box-shadow: 10px 10px 5px #ccc;
@@ -1152,4 +1151,39 @@ section {
     transform: scale(1.1);
     transition-duration: 1s;
   }
+}
+
+
+
+.container2{
+  /* height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex; */
+  margin: 0;
+
+}
+
+.text{
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+.text:after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+.dud{
+  color: #149ddd;
 }
