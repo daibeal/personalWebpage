@@ -1252,6 +1252,16 @@ section {
     right: 0;
     z-index: 1;
   }
+  #first {
+    width: 300px;
+    float:left; /* add this */
+    
+}
+#second {
+
+
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
 }
 .uni-row {
   text-align: center;
