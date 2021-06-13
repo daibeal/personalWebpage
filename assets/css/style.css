@@ -1255,7 +1255,7 @@ section {
   #first {
     width: 300px;
     float:left; /* add this */
-    
+
 }
 #second {
 
@@ -1271,4 +1271,15 @@ section {
 .ucm {
   position: relative; /* Declared position allows for location changes */
    top: -21px; /* Moves the image 2px closer to the top of the page */
+}
+@media screen and (max-width: 700px) {
+  #first {
+    width: 100%;
+
+
+  }
+  #second {
+width: 100%;
+  }
+
 }
