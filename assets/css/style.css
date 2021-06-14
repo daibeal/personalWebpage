@@ -1208,6 +1208,10 @@ section {
 }
 
 @media screen and (max-width: 1000px) {
+  .icon-box{
+    width: 100%;
+
+  }
   .container-row {
     text-align: left;
   }
@@ -1305,6 +1309,10 @@ section {
 
   #second {
     width: 100%;
+  }
+  .progress{
+    text-align: left;
+    padding: 0.5rem 1rem 0;
   }
 }
 
@@ -1464,4 +1472,31 @@ a {
   .footer-menu {
     padding-left: 0
   }
+}
+#spain,#england,#france{
+  border: none;
+}
+#spain:hover{
+  filter: brightness(1.4);
+  transition-duration: : 1s;
+}
+#england:hover{
+  filter: brightness(1.4);
+  transition-duration: : 1s;
+}
+#france:hover{
+  filter: brightness(1.4);
+  transition-duration: : 1s;
+}
+#languages{
+  margin: 0 auto 35px auto;
+  list-style: none;
+  background:#f5f8fc ;
+
+  padding: 2px 15px;
+}
+.lang-con{
+  padding: 3rem 0 3rem 1.1rem;
+
+
 }
