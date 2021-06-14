@@ -1310,10 +1310,10 @@ section {
   #second {
     width: 100%;
   }
-  .progress{
+  /* .progress{
     text-align: left;
     padding: 0.5rem 1rem 0;
-  }
+  } */
 }
 
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
@@ -1499,4 +1499,8 @@ a {
   padding: 3rem 0 3rem 1.1rem;
 
 
+}
+.progress{
+  text-align: left;
+  padding: 0.5rem 1rem 0;
 }
