@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "personal WebPage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daibeal/personalWebpage.git"
+  },
+  "keywords": [
+    "daibeal",
+    "cv"
+  ],
+  "author": "Dairon Andrés Benites Aldaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daibeal/personalWebpage/issues"
+  },
+  "homepage": "https://github.com/daibeal/personalWebpage#readme",
+  "dependencies": {
+    "eslint": "^7.28.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "nodemon": "^2.0.7"
+  }
+}
