@@ -1,3 +1,4 @@
+
 var VanillaTilt = (function () {
 'use strict';
 
@@ -7,6 +8,8 @@ var VanillaTilt = (function () {
  * MIT License.
  * Version 1.7.2
  */
+ 
+
 
 class VanillaTilt {
   constructor(element, settings = {}) {

@@ -930,16 +930,18 @@ section {
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
   -khtml-box-shadow: 10px 10px 5px #ccc;
+  transform: scale(1);
+  transition-duration: 1s;
  
 }
 .other-pic:hover {
-  /* border-radius: 7%;
+  border-radius: 7%;
   box-shadow: 10px 10px 5px #ccc;
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
   -khtml-box-shadow: 10px 10px 5px #ccc;
   transform: scale(1.05);
-  transition-duration: 1s; */
+  transition-duration: 1s;
 }
 .uni {
   transform: scale(1);
