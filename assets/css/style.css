@@ -57,12 +57,9 @@ h6 {
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 0 15px;
+  padding: 4rem 15px;
   background: #040b14;
   overflow-y: auto;
-}
-#header:hover{
-    padding-top: 0.25rem;
 }
 #header .profile img {
   margin: 15px auto;
@@ -109,11 +106,14 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  transition-duration: 1s;
 }
 #header .profile .social-links a:hover {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
+  transform: scale(1.2);
+  transition-duration: 1s;
 }
 #main {
   margin-left: 300px;
@@ -153,6 +153,8 @@ h6 {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
+  padding-left: 0;
+  transition: 1s ease;
 }
 .nav-menu .active,
 .nav-menu .active:focus,
@@ -160,12 +162,18 @@ h6 {
 .nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
+  /* padding: 0; */
+ 
+  
 }
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu a:hover i,
 .nav-menu li:hover > a i {
   color: #149ddd;
+  padding-left: 1.5rem;
+  transition: 0.5s ease;
+  
 }
 .mobile-nav-toggle {
   position: fixed;
@@ -512,6 +520,7 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
+  
 }
 .portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #37b3ed;
@@ -739,7 +748,9 @@ section {
 }
 .contact .info .social-links {
   padding-left: 60px;
+  
 }
+
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
