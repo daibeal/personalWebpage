@@ -1218,3 +1218,8 @@ a:focus {
   text-align: left;
   padding: 0.5rem 1rem 0;
 }
+textarea{
+  min-height: 8rem;
+  width: 80%;
+  resize: none;
+}
