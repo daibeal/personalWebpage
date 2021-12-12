@@ -1005,6 +1005,10 @@ section {
   }
   .sumary-row {
     text-align: left;
+    width: 100%;
+    float: none;
+    padding: 0%;
+    margin: 0;
   }
   .sumary-row h3 {
     text-align: center;
