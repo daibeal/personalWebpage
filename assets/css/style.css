@@ -1039,7 +1039,7 @@ section {
     left: 0;
   }
   #hero {
-    background: #090979;
+    background: white;
   }
   #hero::after {
     background: #090979;
