@@ -208,11 +208,11 @@ let button = document.getElementById("button-send")
 let input = document.getElementById("mail")
 button.disabled = true
 input.addEventListener("input", function () {
-    if (input.value.length > 0) {
-        
+    if (input.value.length > 0 && input.value.includes("@") && input.value.includes(".") && input.value.length > 5) {
         button.disabled = false
     } else {
         button.disabled = true
         
     }
 })
+
