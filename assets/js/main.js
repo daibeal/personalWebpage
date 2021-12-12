@@ -202,3 +202,17 @@ const next = () => {
     (counter = (counter + 1) % phrases.length);
 };
 next();
+
+//Check if email is filled
+let button = document.getElementById("button-send")
+let input = document.getElementById("mail")
+button.disabled = true
+input.addEventListener("input", function () {
+    if (input.value.length > 0) {
+        
+        button.disabled = false
+    } else {
+        button.disabled = true
+        
+    }
+})
