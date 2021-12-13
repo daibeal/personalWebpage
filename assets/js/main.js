@@ -280,4 +280,11 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   destroyBox.vanillaTilt.destroy()
   destroyBox2.vanillaTilt.destroy()
 }
+//Listen for enter on button
 
+// let text_area = document.getElementById("text-area");
+// text_area.addEventListener("keyup", ({key}) => {
+//   if (key === "Enter") {
+//       button.click();
+//   }
+// })

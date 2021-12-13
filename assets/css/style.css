@@ -209,7 +209,10 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/ciudad.webp) top left;
+  /* background: url(../img/ciudad.webp) top left; */
+  background: url(https://ik.imagekit.io/daibeal/valencia_HahT8BfgT.webp?updatedAt=1639416397662) top left; 
+  opacity: 0.9;
+  
   background-size: cover;
 }
 #hero:before {
@@ -909,6 +912,7 @@ a{
   content: "/";
 }
 @media (max-width: 768px) {
+  
   .breadcrumbs .d-flex {
     display: block !important;
   }
