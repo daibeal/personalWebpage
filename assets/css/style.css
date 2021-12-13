@@ -271,6 +271,13 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  .contact .info{
+    box-shadow: 60px -16px rgba(0, 0, 255, 0.589) !important;
+    border: 1px dashed rgba(0, 0, 255, 0.589)
+    
+    
+  }
+ 
 }
 section {
   padding: 60px 0;

@@ -223,6 +223,7 @@ window.addEventListener('resize', function(event) {
     if(window.innerWidth < 768){
         destroyBox.vanillaTilt.destroy()
         destroyBox2.vanillaTilt.destroy()
+        
     }
     else{
         VanillaTilt.init(destroyBox);
