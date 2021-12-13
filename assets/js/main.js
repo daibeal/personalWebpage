@@ -236,3 +236,4 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   destroyBox.vanillaTilt.destroy()
   destroyBox2.vanillaTilt.destroy()
 }
+
