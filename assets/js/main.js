@@ -239,13 +239,7 @@ input.addEventListener("input", function () {
     
 })
 button.addEventListener("click", function () {
-  button.style.backgroundColor = "turquoise"
-  button.style.color = "white"
-  button.style.borderColor = "white"
-  button.style.boxShadow = "0 0 2px turquoise"
-  button.style.cursor = "pointer"
-  button.style.transition = "0.5s"
-  button.innerHTML = "Sending..."
+  
   setTimeout(function () {
     button.innerHTML = "Sent!"
     button.style.backgroundColor = "#5867dd"

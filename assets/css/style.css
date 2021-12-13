@@ -1286,6 +1286,12 @@ textarea{
   cursor: pointer;
 }
 .btn-final-activate:hover{
-  background: #34bfa3;
+  background: #5867dd !important;
+  transform: scale(1.05);
+  border-style: dashed;
+  border-color: #090979;
+  transition-duration: 2s;
+
 
 }
+
