@@ -230,3 +230,8 @@ window.addEventListener('resize', function(event) {
         VanillaTilt.init(destroyBox2);
     } 
 }, true);
+
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  destroyBox.vanillaTilt.destroy()
+  destroyBox2.vanillaTilt.destroy()
+}
