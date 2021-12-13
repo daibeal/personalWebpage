@@ -57,12 +57,9 @@ h6 {
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 0 15px;
+  padding: 3rem 15px;
   background: #040b14;
   overflow-y: auto;
-}
-#header:hover{
-    padding-top: 0.25rem;
 }
 #header .profile img {
   margin: 15px auto;
@@ -102,18 +99,20 @@ h6 {
   background: #212431;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  transition-duration: 1s;
 }
 #header .profile .social-links a:hover {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
+  transform: scale(1.2);
+  transition-duration: 1s;
 }
 #main {
   margin-left: 300px;
@@ -153,6 +152,8 @@ h6 {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
+  padding-left: 0;
+  transition: 1s ease;
 }
 .nav-menu .active,
 .nav-menu .active:focus,
@@ -160,12 +161,18 @@ h6 {
 .nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
+  /* padding: 0; */
+ 
+  
 }
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu a:hover i,
 .nav-menu li:hover > a i {
   color: #149ddd;
+  padding-left: 1.5rem;
+  transition: 0.5s ease;
+  
 }
 .mobile-nav-toggle {
   position: fixed;
@@ -512,6 +519,7 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
+  
 }
 .portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #37b3ed;
@@ -700,12 +708,13 @@ section {
 }
 .contact {
   padding-bottom: 130px;
+  
 }
 .contact .info {
   padding: 30px;
   background: #fff;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 24px 10px rgba(0, 0, 0, 0.25);
 }
 .contact .info i {
   font-size: 20px;
@@ -738,7 +747,9 @@ section {
 }
 .contact .info .social-links {
   padding-left: 60px;
+  
 }
+
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -752,6 +763,9 @@ section {
   height: 36px;
   transition: 0.3s;
   margin-right: 10px;
+}
+a{
+  padding-top: 0.45rem;
 }
 .contact .info .social-links a:hover {
   background: #149ddd;
@@ -1005,6 +1019,10 @@ section {
   }
   .sumary-row {
     text-align: left;
+    width: 100%;
+    float: none;
+    padding: 0%;
+    margin: 0;
   }
   .sumary-row h3 {
     text-align: center;
@@ -1017,6 +1035,7 @@ section {
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
+    
   }
   .section-title h2::after {
     content: "";
@@ -1194,15 +1213,15 @@ a:focus {
   border: none;
 }
 #spain:hover {
-  filter: brightness(1.4);
+  transform: scale(1.1);
   transition-duration: 1s;
 }
 #england:hover {
-  filter: brightness(1.4);
+  transform: scale(1.1);
   transition-duration: 1s;
 }
 #france:hover {
-  filter: brightness(1.4);
+  transform: scale(1.1);
   transition-duration: 1s;
 }
 #languages {
@@ -1210,6 +1229,9 @@ a:focus {
   list-style: none;
   background: #f5f8fc;
   padding: 2px 15px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .lang-con {
   padding: 3rem 0 3rem 1.1rem;
@@ -1218,8 +1240,34 @@ a:focus {
   text-align: left;
   padding: 0.5rem 1rem 0;
 }
+input[type="email"]{
+  padding:10px;
+  border-radius:5px;
+  box-shadow: #040b1448 0px 2px 10px 0px;
+  border:none;
+  width: 100%;
+}
 textarea{
   min-height: 8rem;
-  width: 80%;
+  width: 100%;
   resize: none;
+  padding:10px;
+  border-radius:5px;
+  box-shadow: #0c2a5248 0px 2px 10px 0px;
+  border:none;
+}
+.btn-final-activate{
+  width: 100%;
+  box-shadow: #0c2a5248 0px 2px 10px 0px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background: #5867dd;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-final-activate:hover{
+  background: #34bfa3;
+
 }

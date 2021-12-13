@@ -54,7 +54,7 @@
   <!-- ======= Mobile nav toggle button ======= --> <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="d-flex flex-column" data-tilt data-tilt-reverse="true" data-tilt-scale="1.05">
+    <div id ="header-banner" class="d-flex flex-column" data-tilt>
       <div class="profile"> <a href="https://www.linkedin.com/in/daibeal/"><img src="assets/img/profile.webp" alt=""
             class="img-fluid rounded-circle "></a>
         <h1 class="text-light"><a href="index.html">Andrés B. Aldaz</a></h1>
@@ -445,7 +445,7 @@
           <h2>Contact</h2>
         </div>
         <div class="row container-row" data-aos="fade-in">
-          <div class="col-lg-5 d-flex align-items-stretch" style="float:left;" data-tilt data-tilt-reverse="true">
+          <div id="contact-form" class="col-lg-5 d-flex align-items-stretch" style="float:left;" data-tilt>
             <div class="info">
               <div class="address"> <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
@@ -460,15 +460,15 @@
               <!-- modify this form HTML and place wherever you want your form -->
               <form action="https://formspree.io/f/mlezenwd" method="POST">
                 <label>
-                  <h3 >Your email</h3>
-                  <input type="email" name="_replyto" placeholder="example@domain.com">
+                  <h3>Your email</h3>
+                  <input type="email" id = "mail" name="_replyto">
                 </label>
-                <label> 
+                <label>
                   <h3>Your message</h3>
                   <textarea name="message" placeholder="Your message..."></textarea>
                 </label>
                 <!-- your other form fields go here -->
-                <button type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" id ="button-send" class="btn btn-primary btn-final-activate">Send</button>
               </form>
             </div>
           </div>
