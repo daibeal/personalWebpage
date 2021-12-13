@@ -1,9 +1,9 @@
 !(function () {
   "use strict";
   const e = (e, t = !1) => (
-      (e = e.trim()),
-      t ? [...document.querySelectorAll(e)] : document.querySelector(e)
-    ),
+    (e = e.trim()),
+    t ? [...document.querySelectorAll(e)] : document.querySelector(e)
+  ),
     t = (t, s, i, o = !1) => {
       let a = e(s, o);
       a &&
@@ -168,10 +168,10 @@ class TextScramble {
       this.frame >= n
         ? (t++, (e += o))
         : this.frame >= a
-        ? ((!l || Math.random() < 0.28) &&
+          ? ((!l || Math.random() < 0.28) &&
             ((l = this.randomChar()), (this.queue[s].char = l)),
-          (e += `<span class="dud">${l}</span>`))
-        : (e += i);
+            (e += `<span class="dud">${l}</span>`))
+          : (e += i);
     }
     (this.el.innerHTML = e),
       t === this.queue.length
@@ -184,14 +184,14 @@ class TextScramble {
   }
 }
 const phrases = [
-    "Data Science",
-    "Machine Learning",
-    "AI",
-    "Mathematics",
-    "Research",
-    "Business",
-    "Web Development"
-  ],
+  "Data Science",
+  "Machine Learning",
+  "AI",
+  "Mathematics",
+  "Research",
+  "Business",
+  "Web Development"
+],
   el = document.querySelector(".text"),
   fx = new TextScramble(el);
 let counter = 0;
@@ -207,39 +207,39 @@ let button = document.getElementById("button-send")
 let input = document.getElementById("mail")
 button.disabled = true
 input.addEventListener("input", function () {
-    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value)) {
-        input.style.boxShadow = "0 0 10px #00ff00";
-        button.disabled = false
-        button.style.backgroundColor = "#00ff00"
-        button.style.color = "white"
-        button.style.borderColor = "white"
-        button.style.boxShadow = "0 0 2px #00ff00"
-        button.style.cursor = "pointer"
-        button.style.transition = "0.5s"
-        
-        
-        
-        
-    } 
-    else {
-        input.style.boxShadow = "0 0 10px #ff0000";
-        button.disabled = true
-        button.style.backgroundColor = "#ff0000"
-        button.style.color = "white"
-        button.style.borderColor = "#ff0000"
-        button.style.boxShadow = "0 0 10px #ff0000"
-        button.style.cursor = "not-allowed"
-        button.style.transition = "0.5s"
-        
-    }
-    if(input.value==""){
-      input.style.boxShadow = "0 0 10px grey";
-      
-    }
-    
+  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value)) {
+    input.style.boxShadow = "0 0 10px #00ff00";
+    button.disabled = false
+    button.style.backgroundColor = "#00ff00"
+    button.style.color = "white"
+    button.style.borderColor = "white"
+    button.style.boxShadow = "0 0 2px #00ff00"
+    button.style.cursor = "pointer"
+    button.style.transition = "0.5s"
+
+
+
+
+  }
+  else {
+    input.style.boxShadow = "0 0 10px #ff0000";
+    button.disabled = true
+    button.style.backgroundColor = "#ff0000"
+    button.style.color = "white"
+    button.style.borderColor = "#ff0000"
+    button.style.boxShadow = "0 0 10px #ff0000"
+    button.style.cursor = "not-allowed"
+    button.style.transition = "0.5s"
+
+  }
+  if (input.value == "") {
+    input.style.boxShadow = "0 0 10px grey";
+
+  }
+
 })
 button.addEventListener("click", function () {
-  
+
   setTimeout(function () {
     button.innerHTML = "Sent!"
     button.style.backgroundColor = "#5867dd"
@@ -252,7 +252,7 @@ button.addEventListener("click", function () {
     text = document.getElementById("text-area")
     text.value = ""
   })
-  
+
 
 })
 
@@ -262,27 +262,19 @@ let destroyBox2 = document.getElementById("contact-form")
 VanillaTilt.init(destroyBox)
 VanillaTilt.init(destroyBox2)
 
-window.addEventListener('resize', function(event) {
-    if(window.innerWidth < 768){
-        destroyBox.vanillaTilt.destroy()
-        destroyBox2.vanillaTilt.destroy()
-        
-    }
-    else{
-        VanillaTilt.init(destroyBox);
-        VanillaTilt.init(destroyBox2);
-    } 
+window.addEventListener('resize', function (event) {
+  if (window.innerWidth < 768) {
+    destroyBox.vanillaTilt.destroy()
+    destroyBox2.vanillaTilt.destroy()
+
+  }
+  else {
+    VanillaTilt.init(destroyBox);
+    VanillaTilt.init(destroyBox2);
+  }
 }, true);
 
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   destroyBox.vanillaTilt.destroy()
   destroyBox2.vanillaTilt.destroy()
 }
-//Listen for enter on button
-
-// let text_area = document.getElementById("text-area");
-// text_area.addEventListener("keyup", ({key}) => {
-//   if (key === "Enter") {
-//       button.click();
-//   }
-// })

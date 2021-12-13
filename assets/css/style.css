@@ -118,7 +118,6 @@ h6 {
   margin-left: 300px;
 }
 @media (max-width: 1199px) {
-  
   #header {
     left: -300px;
   }
@@ -163,8 +162,6 @@ h6 {
   text-decoration: none;
   color: #fff;
   /* padding: 0; */
- 
-  
 }
 .nav-menu .active i,
 .nav-menu .active:focus i,
@@ -173,7 +170,6 @@ h6 {
   color: #149ddd;
   padding-left: 1.5rem;
   transition: 0.5s ease;
-  
 }
 .mobile-nav-toggle {
   position: fixed;
@@ -210,7 +206,8 @@ h6 {
   width: 100%;
   height: 100vh;
   /* background: url(../img/ciudad.webp) top left; */
-  background: url(https://ik.imagekit.io/daibeal/image_SlDslx8OBYO.webp?updatedAt=1639422216797) top left; 
+  background: url(https://ik.imagekit.io/daibeal/image_SlDslx8OBYO.webp?updatedAt=1639422216797)
+    top left;
   background-size: cover;
 }
 #hero:before {
@@ -271,13 +268,10 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-  .contact .info{
+  .contact .info {
     box-shadow: 60px -16px rgba(0, 0, 255, 0.589) !important;
-    border: 1px dashed rgba(0, 0, 255, 0.589)
-    
-    
+    border: 1px dashed rgba(0, 0, 255, 0.589);
   }
- 
 }
 section {
   padding: 60px 0;
@@ -526,7 +520,6 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
-  
 }
 .portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #37b3ed;
@@ -715,7 +708,6 @@ section {
 }
 .contact {
   padding-bottom: 130px;
-  
 }
 .contact .info {
   padding: 30px;
@@ -754,7 +746,6 @@ section {
 }
 .contact .info .social-links {
   padding-left: 60px;
-  
 }
 
 .contact .info .social-links a {
@@ -771,7 +762,7 @@ section {
   transition: 0.3s;
   margin-right: 10px;
 }
-a{
+a {
   padding-top: 0.45rem;
 }
 .contact .info .social-links a:hover {
@@ -908,7 +899,6 @@ a{
   content: "/";
 }
 @media (max-width: 768px) {
-  
   .breadcrumbs .d-flex {
     display: block !important;
   }
@@ -918,16 +908,14 @@ a{
   .breadcrumbs ol li {
     display: inline-block;
   }
-  #footer{
+  #footer {
     width: -webkit-fill-available;
-    width: 100vw
-
+    width: 100vw;
   }
-  body{
+  body {
     margin: 0;
-    padding:0;
+    padding: 0;
   }
-  
 }
 #footer {
   padding: 15px;
@@ -954,7 +942,6 @@ a{
     position: static;
     width: 100%;
     padding: 0;
-    
   }
 }
 .other-pic {
@@ -965,7 +952,6 @@ a{
   -khtml-box-shadow: 10px 10px 5px #ccc;
   transform: scale(1);
   transition-duration: 1s;
- 
 }
 .other-pic:hover {
   border-radius: 7%;
@@ -1054,7 +1040,6 @@ a{
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
-    
   }
   .section-title h2::after {
     content: "";
@@ -1258,23 +1243,23 @@ a:focus {
   text-align: left;
   padding: 0.5rem 1rem 0;
 }
-input[type="email"]{
-  padding:10px;
-  border-radius:5px;
+input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
   box-shadow: #040b1448 0px 2px 10px 0px;
-  border:none;
+  border: none;
   width: 100%;
 }
-textarea{
+textarea {
   min-height: 8rem;
   width: 100%;
   resize: none;
-  padding:10px;
-  border-radius:5px;
+  padding: 10px;
+  border-radius: 5px;
   box-shadow: #0c2a5248 0px 2px 10px 0px;
-  border:none;
+  border: none;
 }
-.btn-final-activate{
+.btn-final-activate {
   width: 100%;
   box-shadow: #0c2a5248 0px 2px 10px 0px;
   border: none;
@@ -1285,13 +1270,10 @@ textarea{
   font-weight: 600;
   cursor: pointer;
 }
-.btn-final-activate:hover{
+.btn-final-activate:hover {
   background: #5867dd !important;
   transform: scale(1.05);
   border-style: dashed;
   border-color: #090979;
   transition-duration: 2s;
-
-
 }
-
