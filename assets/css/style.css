@@ -42,7 +42,7 @@ h6 {
   transform: scale(1.3);
   transition-duration: 1s;
   background: #fff;
-  background-color: #090979;
+  background-color: blue;
 }
 .back-to-top.active {
   visibility: visible;
@@ -211,12 +211,9 @@ h6 {
   height: 100vh;
   /* background: url(../img/ciudad.webp) top left; */
   background: url(https://ik.imagekit.io/daibeal/valencia_HahT8BfgT.webp?updatedAt=1639416397662) top left; 
-  opacity: 0.9;
-  
   background-size: cover;
 }
 #hero:before {
-  content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
@@ -226,7 +223,6 @@ h6 {
   z-index: 1;
 }
 .hero::after {
-  content: " ";
   position: absolute;
   top: 0;
   right: 0;
@@ -1081,11 +1077,10 @@ a{
     left: 0;
   }
   #hero {
-    background: white;
+    background: blue;
   }
   #hero::after {
-    background: #090979;
-    content: "";
+    background: blue;
     position: absolute;
     bottom: 0;
     top: 0;
