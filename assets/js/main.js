@@ -216,9 +216,16 @@ input.addEventListener("input", function () {
 
 let destroyBox = document.getElementById("header-banner")
 let destroyBox2 = document.getElementById("contact-form")
-if(window.innerWidth < 768){
-    VanillaTilt.init(destroyBox)
-    VanillaTilt.init(destroyBox2)
-    destroyBox.vanillaTilt.destroy()
-    destroyBox2.vanillaTilt.destroy()
-}
+VanillaTilt.init(destroyBox)
+VanillaTilt.init(destroyBox2)
+
+window.addEventListener('resize', function(event) {
+    if(window.innerWidth < 768){
+        destroyBox.vanillaTilt.destroy()
+        destroyBox2.vanillaTilt.destroy()
+    }
+    else{
+        VanillaTilt.init(destroyBox);
+        VanillaTilt.init(destroyBox2);
+    } 
+}, true);
