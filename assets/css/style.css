@@ -99,7 +99,6 @@ h6 {
   background: #212431;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
@@ -272,6 +271,13 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  .contact .info{
+    box-shadow: 60px -16px rgba(0, 0, 255, 0.589) !important;
+    border: 1px dashed rgba(0, 0, 255, 0.589)
+    
+    
+  }
+ 
 }
 section {
   padding: 60px 0;
@@ -764,6 +770,9 @@ section {
   height: 36px;
   transition: 0.3s;
   margin-right: 10px;
+}
+a{
+  padding-top: 0.45rem;
 }
 .contact .info .social-links a:hover {
   background: #149ddd;

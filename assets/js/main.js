@@ -202,7 +202,6 @@ const next = () => {
     (counter = (counter + 1) % phrases.length);
 };
 next();
-
 //Check if email is filled
 let button = document.getElementById("button-send")
 let input = document.getElementById("mail")
@@ -216,3 +215,24 @@ input.addEventListener("input", function () {
     }
 })
 
+let destroyBox = document.getElementById("header-banner")
+let destroyBox2 = document.getElementById("contact-form")
+VanillaTilt.init(destroyBox)
+VanillaTilt.init(destroyBox2)
+
+window.addEventListener('resize', function(event) {
+    if(window.innerWidth < 768){
+        destroyBox.vanillaTilt.destroy()
+        destroyBox2.vanillaTilt.destroy()
+        
+    }
+    else{
+        VanillaTilt.init(destroyBox);
+        VanillaTilt.init(destroyBox2);
+    } 
+}, true);
+
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  destroyBox.vanillaTilt.destroy()
+  destroyBox2.vanillaTilt.destroy()
+}
