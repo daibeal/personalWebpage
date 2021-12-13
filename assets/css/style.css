@@ -918,6 +918,16 @@ a{
   .breadcrumbs ol li {
     display: inline-block;
   }
+  #footer{
+    width: -webkit-fill-available;
+    width: 100vw
+
+  }
+  body{
+    margin: 0;
+    padding:0;
+  }
+  
 }
 #footer {
   padding: 15px;
