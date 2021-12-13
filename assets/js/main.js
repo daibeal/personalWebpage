@@ -248,7 +248,11 @@ button.addEventListener("click", function () {
     button.style.boxShadow = "0 0 2px #5867dd"
     button.style.cursor = "pointer"
     button.style.transition = "0.5s"
+    input.value = ""
+    text = document.getElementById("text-area")
+    text.value = ""
   })
+  
 
 })
 
