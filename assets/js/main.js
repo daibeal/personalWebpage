@@ -207,13 +207,57 @@ let button = document.getElementById("button-send")
 let input = document.getElementById("mail")
 button.disabled = true
 input.addEventListener("input", function () {
-    if (input.value.length > 0 && input.value.includes("@") && input.value.includes(".") && input.value.length > 5) {
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value)) {
+        input.style.boxShadow = "0 0 10px #00ff00";
         button.disabled = false
-    } else {
+        button.style.backgroundColor = "#00ff00"
+        button.style.color = "white"
+        button.style.borderColor = "white"
+        button.style.boxShadow = "0 0 2px #00ff00"
+        button.style.cursor = "pointer"
+        button.style.transition = "0.5s"
+        
+        
+        
+        
+    } 
+    else {
+        input.style.boxShadow = "0 0 10px #ff0000";
         button.disabled = true
+        button.style.backgroundColor = "#ff0000"
+        button.style.color = "white"
+        button.style.borderColor = "#ff0000"
+        button.style.boxShadow = "0 0 10px #ff0000"
+        button.style.cursor = "not-allowed"
+        button.style.transition = "0.5s"
         
     }
+    if(input.value==""){
+      input.style.boxShadow = "0 0 10px grey";
+      
+    }
+    
 })
+button.addEventListener("click", function () {
+  button.style.backgroundColor = "turquoise"
+  button.style.color = "white"
+  button.style.borderColor = "white"
+  button.style.boxShadow = "0 0 2px turquoise"
+  button.style.cursor = "pointer"
+  button.style.transition = "0.5s"
+  button.innerHTML = "Sending..."
+  setTimeout(function () {
+    button.innerHTML = "Sent!"
+    button.style.backgroundColor = "#5867dd"
+    button.style.color = "white"
+    button.style.borderColor = "white"
+    button.style.boxShadow = "0 0 2px #5867dd"
+    button.style.cursor = "pointer"
+    button.style.transition = "0.5s"
+  })
+
+})
+
 
 let destroyBox = document.getElementById("header-banner")
 let destroyBox2 = document.getElementById("contact-form")
