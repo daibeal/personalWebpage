@@ -177,10 +177,10 @@ h6 {
   top: 15px;
   z-index: 9998;
   border: 0;
-  font-size: 24px;
+  font-size: 30px;
   transition: all 0.4s;
   outline: 0 !important;
-  background-color: #149ddd;
+  background-color: none;
   color: #fff;
   width: 40px;
   height: 40px;
