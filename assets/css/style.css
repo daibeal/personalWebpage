@@ -205,9 +205,16 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(https://ik.imagekit.io/daibeal/image_SlDslx8OBYO.webp?updatedAt=1639422216797)
-    top left;
-  background-size: cover;
+  background: url(https://ik.imagekit.io/daibeal/background_9aVdsmxPK.webp?updatedAt=1640885579537) bottom center;
+  
+  
+  /* background: url(/assets/img/minimalist-background.jpg) top left; */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+   /* background-attachment: fixed;  */
+  background-position-x: -250px;
+  
+
 }
 #hero:before {
   background: rgba(5, 13, 24, 0.3);
@@ -252,12 +259,40 @@ h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+#blog{
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+.blog-btn{
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  background: #286DB1;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+.blog-btn:hover{
+  filter: invert(100%);
+
+
+}
+
+/* Add animation to blog-btn */
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
+
+
 @media (max-width: 768px) {
+  
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -762,7 +797,7 @@ section {
   margin-right: 10px;
 }
 a {
-  padding-top: 0.45rem;
+  padding-top: 0.5rem;
 }
 .contact .info .social-links a:hover {
   background: #149ddd;
