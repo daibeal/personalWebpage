@@ -1404,7 +1404,8 @@ textarea {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: blue;
+    background: rgb(11, 3, 94);
+    
     /* animation: animateBg 50s linear infinite;
   }
   @keyframes animateBg {
@@ -1417,10 +1418,9 @@ textarea {
     }
   } */
 }
-  
 
 
 
 
 
-
+}
