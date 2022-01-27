@@ -963,6 +963,7 @@ a {
   -khtml-box-shadow: 10px 10px 5px #ccc;
   transform: scale(1);
   transition-duration: 1s;
+  
 }
 .other-pic:hover {
   border-radius: 7%;
@@ -1049,7 +1050,7 @@ a {
   .other-pic {
     width: 300px;
     height: 300px;
-    object-fit: cover;
+    
     border-radius: 50%;
   }
   .section-title h2::after {
