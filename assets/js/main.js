@@ -208,7 +208,7 @@ let input = document.getElementById("mail")
 button.disabled = true
 input.addEventListener("input", function () {
   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value)) {
-    input.style.boxShadow = "0 0 10px #00ff00";
+    input.style.boxShadow = "0 0 3px #00ff00";
     button.disabled = false
     button.style.backgroundColor = "#00ff00"
     button.style.color = "white"
@@ -222,12 +222,12 @@ input.addEventListener("input", function () {
 
   }
   else {
-    input.style.boxShadow = "0 0 10px #ff0000";
+    input.style.boxShadow = "0 0 2px #ff0000";
     button.disabled = true
     button.style.backgroundColor = "#ff0000"
     button.style.color = "white"
     button.style.borderColor = "#ff0000"
-    button.style.boxShadow = "0 0 10px #ff0000"
+    button.style.boxShadow = "0 0 2px #ff0000"
     button.style.cursor = "not-allowed"
     button.style.transition = "0.5s"
 
