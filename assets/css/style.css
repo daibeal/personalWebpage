@@ -1369,3 +1369,30 @@ textarea {
 	background: #21242d url('https://cssauthor.com/wp-content/uploads/2018/06/Bouncy-Preloader.gif') no-repeat center;
 	z-index: 999;
 } */
+@media (max-width: 1199px) {
+
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: blue;
+    animation: animateBg 50s linear infinite;
+  }
+  @keyframes animateBg {
+    0% {
+         filter: hue-rotate(0deg);
+    }
+  
+    100% {
+         filter: hue-rotate(360deg);
+    }
+  }
+}
+  
+
+
+
+
+
+
