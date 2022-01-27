@@ -1371,6 +1371,33 @@ textarea {
 	z-index: 999;
 } */
 @media (max-width: 1199px) {
+  .glassy-text::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left:0%;
+    top: 0%;
+    width: 275%;
+    height: 290%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+    -webkit-animation: rotate 4s linear infinite;
+            animation: rotate 4s linear infinite;
+  }
+  .glassy-text::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 6px;
+    top: 6px;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    background: rgba(18, 6, 142, 0.16);
+    border-radius: 20px;
+  }
 
   #hero {
     display: flex;
@@ -1378,7 +1405,7 @@ textarea {
     align-items: center;
     min-height: 100vh;
     background: blue;
-    animation: animateBg 50s linear infinite;
+    /* animation: animateBg 50s linear infinite;
   }
   @keyframes animateBg {
     0% {
@@ -1388,7 +1415,7 @@ textarea {
     100% {
          filter: hue-rotate(360deg);
     }
-  }
+  } */
 }
   
 
