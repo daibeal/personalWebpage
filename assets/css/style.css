@@ -1377,3 +1377,18 @@ textarea {
 h1{
   font-size: 8rem  !important;
 }
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 500% !important;
+
+    text-align: center;
+
+    user-select: none;
+    line-height: 100% !important;
+}
