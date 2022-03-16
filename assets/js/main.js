@@ -278,3 +278,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   destroyBox.vanillaTilt.destroy()
   destroyBox2.vanillaTilt.destroy()
 }
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('hero', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});

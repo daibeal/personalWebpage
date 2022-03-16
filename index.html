@@ -56,13 +56,15 @@
 </head>
 
 <body>
+
   <!-- ======= Mobile nav toggle button ======= --> <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
   <!-- ======= Header ======= -->
   <header id="header" >
+    
     <div id="header-banner" class="d-flex flex-column" data-tilt>
       <div class="profile"> <a href="https://www.linkedin.com/in/daibeal/"><img src="assets/img/profile.webp" alt=""
             class="img-fluid rounded-circle "></a>
-        <h1 id="titulo" class="text-light"><a href="index.html">@daibeal</a></h1>
+        <h1 id="titulo" class="text-light" style="font-size:2rem !important"><a href="index.html">@daibeal</a></h1>
         <div class="social-links mt-3 text-center"> <a href="https://twitter.com/daibeal26" class="twitter"><i
               class="bx bxl-twitter"></i></a> <a href="https://www.facebook.com/andres.benites.5496/"
             class="facebook"><i class="bx bxl-facebook"></i></a> <a href="https://www.instagram.com/andresbenitess/"
@@ -88,13 +90,9 @@
   </header><!-- End Header -->
   <!-- ======= Hero Section ======= -->
   
-  <section id="hero" class=" d-flex flex-column justify-content-center align-items-center rop" >
+  <section id="hero" class=" d-flex flex-column justify-content-center align-items-center rop"data-tilt data-aos="fade-down" >
+    <h1 id ="title-name" data-aos="fade-up"  >Andrés B. Aldaz</h1>
     
-    <div  class="hero-container glassy-text " >
-      <h1 class = "name-title" data-aos="fade-in" >Andrés Benites Aldaz</h1>
-      <p><span class="typed" data-typed-items="Data Science,AI,Business,Computing,Fintech,Blockchain"></span>
-      </p>
-    </div>
   </section><!-- End Hero -->
   <main id="main">
     <!-- ======= About Section ======= -->
@@ -146,27 +144,39 @@
     </section><!-- End About Section -->
     <!-- ======= Academic Institutions Section ======= -->
     <section id="facts" class="facts">
-      <div class="container">
+      <div class="container" style="">
         <div class="section-title" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <h2>Academic Institutions</h2>
           <div class="row">
-            <div class="col-lg-3 uni-row"> <a href="https://www.upv.es"><img class="uni"
-                  src="https://ik.imagekit.io/daibeal/upv_wx4fE-DEG.webp" width="350rem" alt=""></a>
+            <div class="col-lg-3 col-sm-12 uni-row"> <a href="https://www.upv.es"><img class="uni"
+                  src="https://ik.imagekit.io/daibeal/upv_wx4fE-DEG.webp" width="350rem" alt="" style="padding-top: 0.5rem; "></a>
             </div>
-            <div class="col-lg-3 uni-row"> <a href="https://www.ucm.es/english"><img class="uni ucm"
+            <div class="col-lg-3  col-sm-12 uni-row"> <a href="https://www.ucm.es/english"><img class="uni ucm"
                   src="https://logos-marcas.com/wp-content/uploads/2020/04/UCM-Logo.png" width="300rem"
                   style="margin-top: 0rem;" alt=""></a>
             </div>
-             <div class="col-lg-3 uni-row"> <a href="https://ibidat.es"><img class="uni ucm"
-                  src="https://ik.imagekit.io/daibeal/santander_Qr8BkO1Ts.webp?updatedAt=1639344114636" width="300rem"
-                  style="padding-top: 0; " alt=""></a>
-            </div>
-            <div class="col-lg-3 uni-row"> <a
-                href="https://keepcoding.io/nuestros-bootcamps/full-stack-big-data-machine-learning-bootcamp/"><img
+            <!-- <div class="col-lg-3  col-sm-12 uni-row"> <a
+                href="https://www.usd.edu/"><img
                   class="uni ucm coding"
-                  src="https://keepcoding.io/wp-content/uploads/2022/01/logo-keepcoding-Tech-School@2x.png"
-                  width="300rem" style="padding-top: 2rem; " alt=""></a>
-            </div>
+                  src="https://upload.wikimedia.org/wikipedia/commons/6/63/University_of_South_Dakota_logo.png"
+                  width="300rem" style="padding-top: 2rem; margin-bottom: 10%;" alt=""></a>
+            </div> -->
+          <!-- <div class="col-lg-3  col-sm-12 uni-row"> <a
+            href="https://keepcoding.io/nuestros-bootcamps/full-stack-big-data-machine-learning-bootcamp/"><img
+              class="uni ucm coding"
+              src="https://cluster.org/wp-content/uploads/2021/05/kth-logo-2.png"
+              width="300rem" style="" alt=""></a>
+        </div> -->
+        <div class="col-lg-3  col-sm-12 uni-row"> <a href="https://ibidat.es"><img class="uni ucm"
+          src="https://ik.imagekit.io/daibeal/santander_Qr8BkO1Ts.webp?updatedAt=1639344114636" width="300rem"
+          style="padding-top: 1rem; " alt=""></a>
+    </div>
+        <div class="col-lg-3  col-sm-12 uni-row"> <a
+          href="https://keepcoding.io/nuestros-bootcamps/full-stack-big-data-machine-learning-bootcamp/"><img
+            class="uni ucm coding"
+            src="https://codeweek-s3.s3.amazonaws.com/event_picture/KeepCoding_logo_negro.png"
+            width="200rem" style="padding-top: 1.5rem; " alt="KeepCoding_logo_negro"></a>
+      </div>
 
           </div>
         </div>
@@ -286,12 +296,39 @@
           <div class="col-lg-6" data-aos="fade-up">
 
             <h3 class="resume-title">Education</h3>
+
+            
+            <!-- <div class="resume-item">
+              <h4>Magellan Scholarship Program - PROMOE SANTANDER</h4>
+              <h5>2023 - 2024</h5>
+              <p><em><a
+                    href="https://www.kth.se/en">University of South Dakota, USA 🇺🇸</a></em></p>
+              <ul>
+                <li>Quantitative Analysis for Business</li>
+                <li>International Strategic & Human Resource Management</li>
+                <li>Advanced Corporate Finance</li>
+                <li>Auditing</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>ERASMUS+ Mundus Scholarship</h4>
+              <h5>2022 - 2023</h5>
+              <p><em><a
+                    href="https://www.kth.se/en">KTH Royal Institute of Technology, Stockholm, Sweden 🇸🇪</a></em></p>
+              <ul>
+                <li>Computer Science, Business and Management </li>
+                <li>Business Development and Quality Management</li>
+                <li>Artificial Intelligence</li>
+                <li>Parallel and Distributed Computing</li>
+              </ul>
+            </div> -->
+
              <div class="resume-item">
               <h4> Big Data, AI & Machine Learning</h4>
               <h5>2022 - 2023</h5>
               <p><em><a
                     href="https://keepcoding.io/nuestros-bootcamps/full-stack-big-data-machine-learning-bootcamp/">KEEPCODING
-                    Tech School, Spain</a></em></p>
+                    Tech School, Spain 🇪🇸</a></em></p>
               <ul>
                 <li>Data Warehouse & ETL</li>
                 <li>Big Data Architecture</li>
@@ -310,7 +347,7 @@
               <h4> Big Data Analytics (6th edition)</h4>
               <h5>2022</h5>
               <p><em><a href="https://www.fundacion.uc3m.es/formacion/big-data-analytics/">UC3M - Santander (IBiDat) &
-                    Deloitte Digital, Spain</a></em></p>
+                    Deloitte Digital, Spain 🇪🇸</a></em></p>
               <ul>
                 <li>Data Architecture and Infrastructure</li>
                 <li>Advanced R & Python Programming</li>
@@ -328,7 +365,7 @@
             <div class="resume-item">
               <h4>Business Management: SICUE Mobility Programme</h4>
               <h5>2021 - Present</h5>
-              <p><em><a href="https://economicasyempresariales.ucm.es/">Complutense University of Madrid, Spain</a></em></p>
+              <p><em><a href="https://economicasyempresariales.ucm.es/">Complutense University of Madrid, Spain 🇪🇸</a></em></p>
               <ul>
                 <li>Business Statistics</li>
                 <li>Portfolio Management</li>
@@ -339,7 +376,7 @@
             <div class="resume-item">
               <h4>B.Sc. in Computer Engineering: Information Systems</h4>
               <h5>2018 - Present</h5>
-              <p><em> <a href="http://www.upv.es/en">Polytechnic University of Valencia, Spain</a></em></p>
+              <p><em> <a href="http://www.upv.es/en">Polytechnic University of Valencia, Spain 🇪🇸</a></em></p>
               <ul>
                 <li>Develop new products and solve practical computing problems.</li>
                 <li>Conduct research involving experimentation and modelling.</li>
@@ -350,7 +387,7 @@
             <div class="resume-item">
               <h4>B.Sc. in Business Administration and Management: Industrial organizations and Services</h4>
               <h5>2018 - Present</h5>
-              <p><em> <a href="http://www.upv.es/en">Polytechnic University of Valencia, Spain</a></em></p>
+              <p><em> <a href="http://www.upv.es/en">Polytechnic University of Valencia, Spain 🇪🇸</a></em></p>
               <ul>
                 <li>Plan strategies for streamlining and improving business operations.</li>
                 <li>Handle business finances and plan the budget with the help of finance and accounting leaders and
@@ -366,7 +403,7 @@
               <h4>Assistant Financial Analyst Internship </h4>
               <h5>2018</h5>
               <p><em> <a href="https://www.bolivariano.com/informacion-institucional/quienes-somos">Banco Bolivariano
-                    C.A, Guayaquil, Ecuador</a></em></p>
+                    C.A, Guayaquil, Ecuador 🇪🇨</a></em></p>
               <p> <strong s>Treasury Department</strong></p>
               <ul>
                 <li>Make reports on research done on the wide range of investment options available.</li>
@@ -574,6 +611,7 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="https://kit.fontawesome.com/8a231bf8de.js" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/vanilla-tilt.js"></script>
+  <script src="assets/js/particles.js"></script>
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <!--Cookies banner-->
