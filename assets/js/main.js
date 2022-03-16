@@ -290,9 +290,9 @@ const elts = {
 };
 
 const texts = [
-  "Andrés Benites Aldaz",
-  "Computer Engineering",
-  "Business Administration",
+  "Andrés B. Aldaz",
+  "Computer Science",
+  "Business",
   "Data Science",
   "Machine Learning",
   "IA"
