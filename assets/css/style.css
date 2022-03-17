@@ -58,8 +58,10 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 3rem 15px;
-  background: #040b14;
+  background:#0e2442;
   overflow-y: auto;
+  
+
 }
 #header .profile img {
   margin: 15px auto;
@@ -1391,4 +1393,29 @@ h1{
 
     user-select: none;
     line-height: 100% !important;
+}
+#blog-button{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 90% !important;
+  height: 2.5rem;
+  background: #5867dd;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: larger !important;
+}
+#blog-button:hover{
+  background: #000000 !important;
+  color: white;
+  transform: scale(1.05);
+  border-style: dashed;
+  border-color: #090979;
+  transition-duration: 2s;
 }
