@@ -285,7 +285,12 @@ if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navi
     console.log('callback - particles.js config loaded');
   });
 }
-
+else {
+  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+  particlesJS.load('hero', 'assets/particlesMobile.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+}
 
 
 
