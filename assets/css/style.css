@@ -178,12 +178,12 @@ h6 {
   right: 15px;
   top: 15px;
   z-index: 9998;
-  border: 0;
+  border: none;
   font-size: 30px;
   transition: all 0.4s;
   outline: 0 !important;
-  background-color: none;
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: #001F3F;
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -199,7 +199,7 @@ h6 {
   color: #090979;
 }
 .mobile-nav-active {
-  overflow: hidden;
+  overflow: visible;
 }
 .mobile-nav-active #header {
   left: 0;
