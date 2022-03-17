@@ -208,7 +208,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-   background: url(https://ik.imagekit.io/daibeal/background_9aVdsmxPK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1640885579537); 
+   /* background: url(https://ik.imagekit.io/daibeal/background_9aVdsmxPK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1640885579537);  */
+   background-color: #001F3F;
  /* background: url(https://ik.imagekit.io/daibeal/sorolla_d2ntK6f7fx.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647433783181); */
   background-size: cover;
   background-position: center;
