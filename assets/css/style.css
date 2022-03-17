@@ -223,33 +223,31 @@ h6 {
   justify-content: center;
   padding: 0;
   margin: 0;
-  
-  
-
-}
-
-#hero:hover {
   -webkit-animation: glow linear 10s infinite; 
     animation: glow linear 10s infinite;
   
-
   
+
 }
+
 @-webkit-keyframes glow { 
   0% { background-color:#001F3F; }
-  50% { background-color:#02366a; }
-  65% { background-color:black; }
-  75% { background-color:#0950ac; } 
-  100% { background-color:#001F3F; } 
+  20% { background-color:#026a31; }
+  40% { background-color:rgb(8, 138, 88); }
+  60% { background-color:#027c72; } 
+  80% { background-color:#480586; }
+  100% { background-color:#001F3F; }
 
 } 
 @keyframes glow { 
   0% { background-color:#001F3F; }
-  50% { background-color:#02366a; }
-  65% { background-color:black; }
-  75% { background-color:#0950ac; } 
-  100% { background-color:#001F3F; } 
+  20% { background-color:#026a31; }
+  40% { background-color:rgb(8, 138, 88); }
+  60% { background-color:#027c72; } 
+  80% { background-color:#480586; } 
+  100% { background-color:#001F3F; }
 }
+
 #hero:before {
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
