@@ -4,7 +4,7 @@
       "value": 10,
       "density": {
         "enable": true,
-        "value_area": 100
+        "value_area": 10
       }
     },
     "color": {
@@ -17,7 +17,7 @@
         "color": "#FFFFFF"
       },
       "polygon": {
-        "nb_sides": 4
+        "nb_sides": 6
       }
     },
     "opacity": {
