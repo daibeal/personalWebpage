@@ -279,10 +279,15 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   destroyBox2.vanillaTilt.destroy()
 }
 
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('hero', 'assets/particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
+if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+  particlesJS.load('hero', 'assets/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+}
+
+
+
 
 const elts = {
   text1: document.getElementById("text1"),
