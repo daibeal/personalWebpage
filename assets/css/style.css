@@ -384,6 +384,7 @@ section {
 .facts .count-box a:hover {
   color: #1f5297;
 }
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -411,7 +412,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #0d76a7;
 }
 .resume .resume-title {
   font-size: 26px;
@@ -423,7 +424,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #149ddd;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -1075,8 +1076,8 @@ a {
     bottom: 0;
     left: 0;
   }
-  #hero {
-    background: blue;
+  /* #hero {
+    
   }
   #hero::after {
     background: blue;
@@ -1086,7 +1087,7 @@ a {
     left: 0;
     right: 0;
     z-index: 1;
-  }
+  } */
   #first {
     width: 300px;
     float: left;
@@ -1348,7 +1349,8 @@ textarea {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(11, 3, 94);
+    background-color: #02366a;
+  
     
     /* animation: animateBg 50s linear infinite;
   }
@@ -1408,7 +1410,7 @@ h1{
   padding: 10px;
   outline: none;
   border-radius: 4px;
-  width: 80% !important;
+  width: 100% !important;
 }
 #blog-button:hover{
   color: #001F3F;
