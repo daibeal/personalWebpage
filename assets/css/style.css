@@ -1372,9 +1372,7 @@ textarea {
 }
 #title-name{
   font-size: 5rem !important;
-  line-height: 100% !important;
-  margin-top: 400rem;
-  
+  line-height: 100% !important;  
   position: absolute;
 
   z-index: 99;
