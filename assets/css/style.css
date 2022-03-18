@@ -273,12 +273,24 @@ h6 {
   min-width: 300px;
 }
 #hero h1 {
-  margin: 0 0 0px 0;
-  font-size: 10px !important;
+  margin: 0;
+  font-size: 7rem !important;
   font-weight: 800;
-  line-height: 56px;
+  line-height: 100%;
   color: #fff;
 }
+
+/* #hero h1 {
+  margin: 0 0 0px 0;
+  
+  font-weight: 800;
+  line-height: 6px;
+  color: #fff;
+  font-size: 1rem ;
+  position: absolute;
+  z-index: 99;
+} */
+
 #hero p {
   color: #fff;
   margin-bottom: 50px;
@@ -291,15 +303,24 @@ h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+#hero{
+  text-align: center;
+}
+
+
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
 @media (max-width: 768px) {
+
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 2.5rem !important;
+    line-height: 100% !important;  
+    position: absolute;
+    z-index: 99;
   }
   #hero h2 {
     font-size: 18px;
@@ -1461,13 +1482,4 @@ body {
 	
 	/* This filter is a lot of the magic, try commenting it out to see how the morphing works! */
 	filter: url(#threshold) blur(0.2px);
-}
-#hero{
-  text-align: center;
-}
-#hero h1{
-  font-size: 5rem !important;
-  line-height: 100% !important;  
-  position: absolute;
-  z-index: 99;
 }
