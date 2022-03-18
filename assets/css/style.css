@@ -269,7 +269,7 @@ h6 {
   min-width: 300px;
 }
 #hero h1 {
-  margin: 0;
+  margin-left: 10rem !important;
   font-size: 7rem !important;
   font-weight: 800;
   line-height: 100%;
