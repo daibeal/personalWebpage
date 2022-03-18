@@ -1408,17 +1408,18 @@ h1{
 
 #text1,
 #text2 {
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: inline-block;
 
     font-family: "Raleway", sans-serif;
     font-size: 400% !important;
-
+    margin: 0px !important;
+    left: 0;
     text-align: center;
 
     user-select: none;
-    line-height: 100% !important;
+    /* line-height: 100% !important; */
 }
 #blog-button{
   transition: all .5s ease;
@@ -1438,4 +1439,33 @@ h1{
 #blog-button:hover{
   color: #001F3F;
     background-color: #fff;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+body {
+	margin: 0px;
+}
+
+#container {
+  position: absolute;
+	margin: auto;
+	width: 100vw;
+	height: 80pt;
+	top: 0;
+	bottom: 0;
+  
+
+	
+	
+	/* This filter is a lot of the magic, try commenting it out to see how the morphing works! */
+	filter: url(#threshold) blur(0.2px);
+}
+#hero{
+  text-align: center;
+}
+#hero h1{
+  font-size: 5rem !important;
+  line-height: 100% !important;  
+  position: absolute;
+  z-index: 99;
 }
