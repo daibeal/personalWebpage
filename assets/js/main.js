@@ -305,7 +305,7 @@ const texts = [
   "Business",
   "Data Science",
   "Machine Learning",
-  "IA"
+  "AI"
 
 ];
 
@@ -379,8 +379,3 @@ function animate() {
 
 animate();
 
-$(".tiptext").mouseover(function() {
-  $(this).children(".description").show();
-}).mouseout(function() {
-  $(this).children(".description").hide();
-});
