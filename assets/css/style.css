@@ -170,7 +170,7 @@ h6 {
   position: fixed;
   right: 15px;
   top: 15px;
-  z-index: 9998;
+  z-index: 9999;
   border: none;
   font-size: 30px;
   transition: all 0.4s;
@@ -1387,11 +1387,13 @@ textarea {
   text-align: center;
   justify-content: center;
   padding: 0rem !important;
+  z-index: 1;
 }
 @media (max-width: 1199px) {
   
 
   #hero {
+    z-index: 1;
     text-align: center;
     display: flex;
     justify-content: center;
