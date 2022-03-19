@@ -301,10 +301,10 @@ const elts = {
 
 const texts = [
   "Andrés B. Aldaz",
-  "Computer Science",
+  "Computing",
   "Business",
   "Data Science",
-  "Machine Learning",
+  "ML",
   "AI"
 
 ];

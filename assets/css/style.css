@@ -19,6 +19,18 @@ h6 {
   #hero h1 {
     margin-left: 10rem !important;
   }
+  #about,
+  #resume,
+  #skills,
+  #facts,
+  #languages,
+  #services,
+  #portfolio,
+  #contact
+   {
+    padding-left: 2rem;
+  }
+  
 }
 .back-to-top {
   transform: scale(1);
@@ -273,11 +285,14 @@ h6 {
   z-index: 2;
   min-width: 300px;
 }
+#container {
+  height: 9rem !important;
+}
 #hero h1 {
   margin-left: 10rem ;
   font-size: 7rem !important;
   font-weight: 800;
-  line-height: 100%;
+  line-height: 100% !important;
   color: #fff;
   z-index: -2 !important;
   overflow: hidden !important;
