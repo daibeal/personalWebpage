@@ -1593,3 +1593,6 @@ body {
   z-index: 999 !important;
   position: relative !important;
 }
+#filters {
+  position: fixed;
+}
