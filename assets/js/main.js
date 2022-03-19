@@ -303,9 +303,9 @@ const texts = [
   "Andrés B. Aldaz",
   "Computing",
   "Business",
-  "Data Science",
-  "ML",
-  "AI"
+  "Statistics",
+  "Engineering",
+  "Research"
 
 ];
 
