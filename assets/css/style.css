@@ -2,8 +2,59 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+.bx{
+  color: whitesmoke;
+}
+#header, a{
+  color: white !important; ;
+}
+.nav-link{
+  color: white !important; ;
+}
+.carousel-link{
+  color: wheat !important; ;
+}
+.carousel-item{
+  z-index: 9999;
+}
+.carousel-control-prev {
+  z-index: 9999;
+}
+.carousel-control-next-icon {
+  z-index: 9999;
+}
+.carousel-control-next {
+  z-index: 9999;
+}
+.carousel-control-prev {
+  z-index: 9999;
+}
+.carousel-control-next-icon {
+  z-index: 9999;
+}
+.carousel-control-prev-icon {
+  z-index: 9999;
+}
+.carousel-control-next-icon:before {
+  z-index: 9999;
+}
+.carousel-control-prev-icon:before {
+  z-index: 9999;
+}
+.carousel-control-next-icon:after {
+  z-index: 9999;
+}
+.carouselExampleControls{
+  z-index: 9999;
+}
+.carouselExampleControls{
+  z-index: 9999;
+}
+#Latest-Posts {
+  z-index: 9999 !important;
+}
 a {
-  color: #149ddd;
+  color: #2f0591 !important;
   text-decoration: none;
 }
 
@@ -339,6 +390,9 @@ h6 {
   }
 }
 @media (max-width: 768px) {
+  h2, .container2 {
+    text-align: center !important;
+  }
 
   #hero h1 {
     margin-left: 0 !important;
@@ -363,9 +417,11 @@ h6 {
 }
 section {
   padding: 60px 0;
+  
   overflow: hidden;
 }
 .section-bg {
+  z-index: 99999 !important;
   background: #f5f8fd;
 }
 .section-title {
@@ -1595,4 +1651,7 @@ body {
 }
 #filters {
   position: fixed;
+}
+label {
+  width: 100%;
 }
