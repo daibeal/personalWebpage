@@ -8,6 +8,11 @@ body {
 #header, a{
   color: white !important; ;
 }
+.carousel-item:hover{
+  box-shadow: 10px 10px 5px #888888;
+
+
+}
 .nav-link{
   color: white !important; ;
 }
@@ -390,7 +395,11 @@ h6 {
   }
 }
 @media (max-width: 768px) {
-  h2, .container2 {
+ #about {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  h2, .container2, h3 {
     text-align: center !important;
   }
 
@@ -1654,4 +1663,7 @@ body {
 }
 label {
   width: 100%;
+}
+.footer-link{
+  color:wheat !important;
 }
