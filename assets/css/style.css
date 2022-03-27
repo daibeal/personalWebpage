@@ -4,12 +4,13 @@ body {
 }
 .bx{
   color: whitesmoke;
+  margin: 0;
 }
 #header, a{
   color: white !important; ;
 }
 .carousel-item:hover{
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #3a3939;
 
 
 }
@@ -244,11 +245,12 @@ h6 {
   right: 15px;
   top: 15px;
   z-index: 9999;
+  background: rgb(65, 84, 178);
   border: none;
   font-size: 30px;
   transition: all 0.4s;
   outline: 0 !important;
-  color: #001F3F;
+  color: #ffffff;
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -259,9 +261,9 @@ h6 {
   cursor: pointer;
 }
 .mobile-nav-toggle:hover {
-  transform: scale(1.2);
-  background-color: #fff;
-  color: #090979;
+  transform: scale(1.1);
+  background: rgba(65, 84, 178, 0.848);
+  color: white;
 }
 .mobile-nav-active {
   overflow: visible;
@@ -1135,7 +1137,6 @@ a {
   .uni {
     transform: scale(1);
     transition-duration: 1s;
-    width: 40%;
     margin: 0 0.5rem 0;
   }
   .uni:hover {
@@ -1583,6 +1584,7 @@ h1{
   width: 80% !important;
   display: block !important;
   margin-left: 1.2rem;
+  margin-top:1rem;
 }
 #blog-button:hover{
   color: #001F3F;
@@ -1666,4 +1668,16 @@ label {
 }
 .footer-link{
   color:wheat !important;
+}
+.calendar {
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  
 }
