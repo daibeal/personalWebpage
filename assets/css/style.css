@@ -6,6 +6,9 @@ body {
   color: whitesmoke;
   margin: 0 !important; 
 }
+.d-block {
+  height: 40vh;
+}
 #header, a{
   color: white !important; ;
 }
@@ -30,18 +33,22 @@ body {
   z-index: 9999;
 }
 .carousel-control-next {
+  
   z-index: 9999;
 }
 .carousel-control-prev {
+  
   z-index: 9999;
 }
 .carousel-control-next-icon {
+  
   z-index: 9999;
 }
 .carousel-control-prev-icon {
   z-index: 9999;
 }
 .carousel-control-next-icon:before {
+  
   z-index: 9999;
 }
 .carousel-control-prev-icon:before {
@@ -1690,4 +1697,36 @@ label {
 }
 .cc-link {
   color: yellow !important;
+}
+body{
+  margin:0;
+  padding:0;
+  background-color:whitesmoke;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+  .carouselOfImages{
+  position: relative;
+  margin: auto;
+  overflow: visible;
+  width: 100%;
+}
+.gradient-left{
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to right, whitesmoke, transparent 100%);
+    margin-top: -270px;
+  height: 150px;
+  width: 8%;
+  content: '';
+}
+.gradient-right{
+  display: block;
+  position: relative;
+  float: right;
+  right:0;
+  background-image: linear-gradient(to left, whitesmoke, transparent 100%);
+      margin-top: -150px;
+  height: 150px;
+  width:8%;
+  content: '';
 }
