@@ -4,7 +4,7 @@ body {
 }
 .bx{
   color: whitesmoke;
-  margin: 0;
+  margin: 0 !important; 
 }
 #header, a{
   color: white !important; ;
@@ -134,21 +134,21 @@ h6 {
   
 
 }
+#header .profile{
+  width: 100% ;
+}
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 9rem;
   border: 8px solid #2c2f3f;
   transition: all 0.5s ease;
   transform: scale(1);
   transition-duration: 1s;
 }
 #header .profile img:hover {
-  margin: 15px auto;
-  display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
-  transform: scale(1.15);
+
+  transform: scale(1.1);
   transition-duration: 1s;
 }
 #header .profile h1 {
@@ -170,7 +170,7 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: none;
   color: #fff;
   line-height: 1;
   margin-right: 4px;
@@ -180,6 +180,7 @@ h6 {
   height: 36px;
   transition: 0.3s;
   transition-duration: 1s;
+  margin-bottom: 1rem;
 }
 
 #main {
@@ -397,6 +398,9 @@ h6 {
   }
 }
 @media (max-width: 768px) {
+  .calendar {
+    width: 100% !important;
+  }
  #about {
     padding-left: 1rem;
     padding-right: 1rem;
