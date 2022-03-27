@@ -2,6 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+
 .bx{
   color: whitesmoke;
   margin: 0 !important; 
@@ -405,6 +406,16 @@ h6 {
   }
 }
 @media (max-width: 768px) {
+  .contact-e, .contact-m{
+    text-align: left !important;
+  }
+  .container-post{
+    padding: 0 !important;
+  }
+  .mov-bg{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .calendar {
     width: 100% !important;
   }
