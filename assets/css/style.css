@@ -1681,3 +1681,9 @@ label {
   font-family: 'Montserrat', sans-serif;
   
 }
+.cc-compliance {
+  margin-right: 5rem;
+}
+.cc-link {
+  color: yellow !important;
+}
