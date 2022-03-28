@@ -413,7 +413,7 @@ h6 {
     padding: 0 !important;
   }
   .mov-bg{
-    padding: 0 !important;
+    padding: 60px 0 !important;
     margin: 0 !important;
   }
   .calendar {
@@ -449,11 +449,12 @@ h6 {
   }
 }
 section {
-  padding: 60px 0;
   
+  padding: 60px 0;
   overflow: hidden;
 }
 .section-bg {
+  
   z-index: 99999 !important;
   background: #f5f8fd;
 }
@@ -1692,7 +1693,7 @@ label {
   color:wheat !important;
 }
 .calendar {
-  color: white;
+  
   padding: 1rem;
   border-radius: 5px;
   margin-top: 1rem;
