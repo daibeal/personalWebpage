@@ -291,8 +291,8 @@ h6 {
   width: 100%;
   height: 100vh;
    /* background: url(https://ik.imagekit.io/daibeal/background_9aVdsmxPK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1640885579537);  */
-   background-image: url(https://wallpaperaccess.com/full/1093965.jpg);
-   background-color: #001F3F;
+    background-image: url(https://images.alphacoders.com/674/674033.jpg); 
+   
    
    
   /* background: url(https://ik.imagekit.io/daibeal/sorolla_d2ntK6f7fx.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647433783181);  */
@@ -305,6 +305,7 @@ h6 {
   align-items: center;
   justify-content: center;
   padding: 0;
+
   margin: 0;
   /* -webkit-animation: glow linear 10s infinite; 
     animation: glow linear 10s infinite; */
@@ -312,6 +313,7 @@ h6 {
   
 
 }
+
 
 /* @-webkit-keyframes glow { 
   0% { background-color:#001F3F; }
@@ -409,6 +411,10 @@ h6 {
   }
 }
 @media (max-width: 768px) {
+  #hero{
+    background-image: url(https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    
+  }
   .contact-e, .contact-m{
     text-align: left !important;
   }
@@ -1541,7 +1547,7 @@ textarea {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #02366a;
+    
     padding: 1.5rem !important;
     
   
