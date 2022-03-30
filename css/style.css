@@ -8321,4 +8321,12 @@ h1, h2, h3, h4, h5,
       box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2); }
     @media (max-width: 767.98px) {
       .thumbnail li a img {
-        width: 50px; } }
+        width: 4rem;
+        height: 4rem;
+      } }
+.btn-outline-primary:hover{
+  filter: invert();
+}
+.btn-outline-primary:active{
+  filter: invert();
+}
