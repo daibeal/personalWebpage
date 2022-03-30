@@ -1,3 +1,5 @@
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -289,10 +291,11 @@ h6 {
   width: 100%;
   height: 100vh;
    /* background: url(https://ik.imagekit.io/daibeal/background_9aVdsmxPK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1640885579537);  */
+   background-image: url(https://wallpaperaccess.com/full/1093965.jpg);
    background-color: #001F3F;
    
    
- /* background: url(https://ik.imagekit.io/daibeal/sorolla_d2ntK6f7fx.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647433783181); */
+  /* background: url(https://ik.imagekit.io/daibeal/sorolla_d2ntK6f7fx.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647433783181);  */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -303,14 +306,14 @@ h6 {
   justify-content: center;
   padding: 0;
   margin: 0;
-  -webkit-animation: glow linear 10s infinite; 
-    animation: glow linear 10s infinite;
+  /* -webkit-animation: glow linear 10s infinite; 
+    animation: glow linear 10s infinite; */
   
   
 
 }
 
-@-webkit-keyframes glow { 
+/* @-webkit-keyframes glow { 
   0% { background-color:#001F3F; }
   20% { background-color:#026a31; }
   40% { background-color:rgb(8, 138, 88); }
@@ -326,7 +329,7 @@ h6 {
   60% { background-color:#027c72; } 
   80% { background-color:#480586; } 
   100% { background-color:#001F3F; }
-}
+} */
 
 #hero:before {
   background: rgba(5, 13, 24, 0.3);

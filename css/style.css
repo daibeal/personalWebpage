@@ -4,6 +4,9 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8357,8 +8360,10 @@ h1, h2, h3, h4, h5,
 .img-carousel {
   
   border: solid rgb(245, 248, 253) ;
-  border-bottom: none !important;
-  border-top: none !important;
+  /* border: solid white ; */
+  
+  border-bottom: none ;
+  border-top: none ;
   border-width: 1rem ;
+  
 }
-
