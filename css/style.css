@@ -8324,8 +8324,11 @@ h1, h2, h3, h4, h5,
         width: 4rem;
         height: 4rem;
       } 
+      .text-carousel{
+        width: 10rem;
+      }
       .img-carousel {
-        border-width: 0 !important;
+        margin-top: 2rem;
         border-radius: 100% !important;
         width: 40rem !important;
         height: 40rem;
