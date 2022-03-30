@@ -8323,10 +8323,39 @@ h1, h2, h3, h4, h5,
       .thumbnail li a img {
         width: 4rem;
         height: 4rem;
-      } }
+      } 
+      .img-carousel {
+        border-width: 0 !important;
+        border-radius: 100% !important;
+        width: 40rem !important;
+        height: 40rem;
+        
+        padding-right: 11rem;
+        padding-top: 4.3rem;
+        
+        
+        
+       
+      }
+      .cool-shape{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+    
+    }
 .btn-outline-primary:hover{
   filter: invert();
 }
 .btn-outline-primary:active{
   filter: invert();
 }
+
+.img-carousel {
+  
+  border: solid rgb(245, 248, 253) ;
+  border-bottom: none !important;
+  border-top: none !important;
+  border-width: 1rem ;
+}
+
