@@ -8347,6 +8347,9 @@ h1, h2, h3, h4, h5,
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
+      .cc-btn {
+        width: 100% !important;
+      }
 
     
     }
@@ -8366,4 +8369,8 @@ h1, h2, h3, h4, h5,
   border-top: none ;
   border-width: 1rem ;
   
+}
+
+.cc-compliance {
+  margin: 0 !important;
 }
