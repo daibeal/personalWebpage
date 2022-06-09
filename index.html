@@ -106,8 +106,8 @@
 
   <!-- ======= Hero Section ======= -->
   
-  <section id="hero" class=" d-flex flex-column justify-content-center align-items-center rop">
-    <div id="container" style="height:70vh !important; text-align: center !important; margin-top: 20rem">
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center rop">
+    <!-- <div id="container" style="height:70vh !important; text-align: center !important; margin-top: 20rem">
       <h1 id ="text1" style="font-size: 5rem !important;" >Andrés B. Aldaz</h1>
       <h1 id ="text2" style="font-size: 5rem !important;"  ></h1>
     </div>
@@ -121,8 +121,23 @@
                     0 0 0 255 -140" />
           </filter>
       </defs>
-  </svg>
-    
+  </svg> -->
+
+  <!-- Create cool h1 title that moves -->
+  <div id="container" style="height:70vh !important; text-align: center !important; margin-top: 20rem">
+    <h1 id ="text1" style="font-size: 5rem !important;" >Andrés B. Aldaz</h1>
+    <h1 id ="text2" style="font-size: 5rem !important;"  ></h1>
+  </div>
+  <svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                  0 1 0 0 0
+                  0 0 1 0 0
+                  0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>    
     
   </section><!-- End Hero -->
   <main id="main">

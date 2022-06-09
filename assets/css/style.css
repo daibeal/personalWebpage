@@ -84,6 +84,7 @@ h6 {
 }
 @media (min-width: 1200px) {
   #hero h1 {
+  
     margin-left: 10rem !important;
   }
   #about,
@@ -362,8 +363,8 @@ h6 {
   height: 9rem !important;
 }
 #hero h1 {
+  
   margin-left: 10rem ;
-  font-size: 7rem !important;
   font-weight: 800;
   line-height: 100% !important;
   color: #fff;
@@ -420,6 +421,7 @@ h6 {
     background-size: cover; background-position: 0;
     
   }
+
   .contact-e, .contact-m{
     text-align: left !important;
   }
@@ -444,7 +446,7 @@ h6 {
   #hero h1 {
     margin-left: 0 !important;
     overflow: hidden !important;
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
     line-height: 100% !important;  
     position: absolute;
     z-index: 1 !important;
@@ -1112,6 +1114,7 @@ a {
     padding: 0;
   }
   h1 {
+    
     margin: 0 !important;
   }
 }
