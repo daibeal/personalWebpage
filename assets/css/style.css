@@ -413,6 +413,8 @@ h6 {
   }
 }
 @media (max-width: 768px) {
+
+
   #hero{
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://ik.imagekit.io/daibeal/backgorund-mobile_QDbkS44iW.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1648898165709');
     background-size: cover; background-position: 0;
@@ -457,6 +459,8 @@ h6 {
     border: 1px dashed rgba(0, 0, 255, 0.589);
   }
   h1 {
+    
+    
     margin: 0 !important;
   }
 }
