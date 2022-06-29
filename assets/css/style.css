@@ -417,10 +417,10 @@ h6 {
 
 
   #hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://ik.imagekit.io/daibeal/backgorund-mobile_QDbkS44iW.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1648898165709');
-    background-size: cover; background-position: 0;
-    
+    background-color: #001F3F!important;
+    background-image: none; 
   }
+ 
 
   .contact-e, .contact-m{
     text-align: left !important;
@@ -1096,6 +1096,7 @@ a {
   content: "/";
 }
 @media (max-width: 768px) {
+
   .breadcrumbs .d-flex {
     display: block !important;
   }
@@ -1227,7 +1228,7 @@ a {
     margin: 0 !important;
   }
   .icon-box {
-    width: 100%;
+    width: 50% !important;
   }
   .container-row {
     text-align: left;
