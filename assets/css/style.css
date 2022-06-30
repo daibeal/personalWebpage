@@ -20,6 +20,14 @@ body {
 
 
 }
+.contenedor-titulo{
+  visibility: visible;
+  clear: both;
+}
+.tit-alternativo{
+  visibility: hidden;
+  clear: both;
+}
 .nav-link{
   color: white !important; ;
 }
@@ -419,6 +427,17 @@ h6 {
   #hero{
     background-color: #001F3F!important;
     background-image: none; 
+  }
+  .contenedor-titulo{
+    visibility: hidden;
+    clear: both;
+  }
+  .tit-alternativo{
+    
+    
+    visibility: visible;
+    clear: both;
+    
   }
  
 
