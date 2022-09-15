@@ -382,12 +382,13 @@ function animate() {
 
 animate();
 
-$(document).ready(function(){  
+// $(document).ready(function(){  
 
-  var appleDevices = ['iPad', 'iPhone', 'iPod'];
+//   var appleDevices = ['iPad', 'iPhone', 'iPod'];
   
-  if (appleDevices.indexOf(navigator.platform) > -1) {
-      $("#facts").hide();
-  }
+//   if (appleDevices.indexOf(navigator.platform) > -1) {
+//       $("#facts").hide();
+//       alert("This website is not optimized for mobile devices. Please use a desktop computer to view this website.");
+//   }
 
-});
+// });
