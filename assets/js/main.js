@@ -382,3 +382,12 @@ function animate() {
 
 animate();
 
+$(document).ready(function(){  
+
+  var appleDevices = ['iPad', 'iPhone', 'iPod'];
+  
+  if (appleDevices.indexOf(navigator.platform) > -1) {
+      $("#facts").hide();
+  }
+
+});
