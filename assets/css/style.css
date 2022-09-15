@@ -4,6 +4,45 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+.logo-2{
+  /* width: 15rem !important; */
+  
+  margin: 0 auto;
+  display: block;
+}
+.container-1 {
+  overflow: hidden;
+}
+.container-1 .slider-1 {
+  animation: slidein 10s linear infinite;
+  white-space: nowrap;
+}
+.container-1 .slider-1 .logos {
+  width: 100%;
+  display: inline-block;
+  margin: 0px 0;
+}
+.container-1 .slider-1 .logos .fab {
+  width: calc(100% / 5);
+  animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+ }
+  to {
+    transform: translate3d(-100%, 0, 0);
+ }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+ }
+  100% {
+    opacity: 1;
+ }
+}
+
 
 .bx{
   color: whitesmoke;
@@ -409,7 +448,10 @@ h6 {
 
 
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
+  .logos2{
+    margin-left: 25rem !important;
+  }
   #hero {
     overflow: hidden !important;
     
@@ -420,7 +462,38 @@ h6 {
 }
 @media (max-width: 768px) {
 
-
+  .logos2{
+    margin-left: 45rem !important;
+  }
+  .container-1 .slider-1 {
+    animation: slidein 10s linear infinite;
+    white-space: nowrap;
+  }
+  .container-1 .slider-1 .logos {
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0;
+  }
+  .container-1 .slider-1 .logos .fab {
+    width: calc(100% / 5);
+    animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  }
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+   }
+    to {
+      transform: translate3d(-250%, 0, 0);
+   }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+   }
+    100% {
+      opacity: 1;
+   }
+  }
   #hero{
     
     /* background: url(/assets/img/cool-background.svg) ; */
