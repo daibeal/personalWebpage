@@ -453,6 +453,7 @@ h6 {
     margin-left: 25rem !important;
   }
   #hero {
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 196, 0) 50%, rgb(201, 21, 21) 100%);
     overflow: hidden !important;
     
   }
@@ -500,7 +501,24 @@ h6 {
   #hero{
     
     /* background: url(/assets/img/cool-background.svg) ; */
-    background-image:url(/assets/img/cool-background.svg) ; ;
+    /* background: rgba(0, 5, 17, 0.31); */
+    /*add b3d effect*/
+    background: linear-gradient(90deg, rgb(87, 68, 255) 0%, rgb(0, 76, 255) 50%, rgb(50, 18, 119) 100%);
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    z-index: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    
+    /* transition: all  7s;
+
     /* background-image: none;  */
   }
   .contenedor-titulo{
