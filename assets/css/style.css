@@ -4,6 +4,17 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+.logo-object{
+  transform: scale(1);
+  transition-duration: 2s;
+
+}
+.logo-object:hover{
+  
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+
 .logo-2{
   /* width: 15rem !important; */
   
