@@ -1833,7 +1833,10 @@ label {
   width: 100%;
 }
 .footer-link{
-  color:wheat !important;
+  color:rgb(255, 255, 255) !important;
+}
+.footer-link:hover{
+  color:rgb(147, 147, 186) !important;
 }
 .calendar {
   
