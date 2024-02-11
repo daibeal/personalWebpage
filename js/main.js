@@ -3,18 +3,7 @@
 	'use strict';
 
 
-	var checkAuthentication = 
-		function () {
-			var password = prompt("Testing in process. Please enter your password", ""); // Prompts the user to enter a password
-			if (password === "michoacan") { // Replace 'correctPassword' with the actual password you want to check against
-			  // If the password is correct, you can redirect them to a different page or perform some action here
-			  alert("Password is correct!");
-			} else {
-			  // If the password is incorrect, redirect to Google
-			  window.location.href = "https://www.google.com";
-			}
-		  };
-		  
+	
 		  
 		  
 
@@ -303,7 +292,6 @@
 
 	// Document on load.
 	$(function(){
-		checkAuthentication(); // Call the function to execute
 		fullHeight();
 		counter();
 		counterWayPoint();
